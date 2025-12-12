@@ -1,0 +1,131 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: rgb(180, 131, 68);
+}
+.container-navbar {
+  background-color: cadetblue;
+  height: 10vh;
+}
+.ul-navbar {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.li-navbar {
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.li-navbar:hover {
+  padding-top: 2px;
+  text-decoration: underline chocolate;
+  transition: 0.2s ease-in-out;
+  transition-delay: 0.3s;
+}
+.li-navbar span {
+  text-decoration: underline chocolate;
+}
+.a-navbar {
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
+}
+.container-content1 {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.content1 {
+  height: 60%;
+  width: 60%;
+}
+.a-content {
+  background-color: white;
+  color: black;
+  font-size: 30;
+  text-decoration: none;
+  width: 720px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 70px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.image-amba {
+  display: flex;
+  gap: 30px;
+  background-color: burlywood;
+}
+.h3-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.contact-body {
+  background-color: rgb(177, 143, 56);
+}
+.no-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.no-contact p {
+  display: flex;
+  margin-top: -25px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.a-no-contact {
+  color: black;
+  text-decoration: none;
+}
+
+.h3-no-contact {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 45;
+  background-color: burlywood;
+}
+.h3-no-contact:hover {
+  background-color: aqua;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+.h-p-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-footer {
+  height: 10vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h3-footer {
+  font-size: 25px;
+}
